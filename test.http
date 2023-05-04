@@ -1,0 +1,28 @@
+### get all
+Get http://localhost:3003/fast  HTTP/1.1
+
+### get single
+Get http://localhost:3003/fasts/2  HTTP/1.1
+
+### post all
+POST http://localhost:3003/fast  HTTP/1.1
+Content-Type:application/json
+
+{
+    "name":"xyz",
+    "study":"kdle",
+    "age":"80",
+    "height":"uji"
+}
+
+### Update all
+PUT http://localhost:3003/fast/3  HTTP/1.1
+Content-Type:application/json
+
+{
+    "name":"yashvi"
+}
+
+### delete all
+DELETE  http://localhost:3003/fast/1  HTTP/1.1
+
